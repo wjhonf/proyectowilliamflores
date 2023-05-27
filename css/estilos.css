@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    background-image: url("../imagenes/fondo1.jpg");
+    width: 80%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    align-items: center;  
+ }
+ header .menu{
+    background-color: #01427c;  
+}
+header .menu ul{
+    list-style-type: none;
+}
+header .menu a{
+    color:white;
+    text-decoration: none;  
+}
+header .menu a:hover{
+    background-color:  white;
+    color: black;
+    border-bottom: white;
+    border-radius: 1px;
+}
+header .icono{
+   border-color:white;
+}
+header .menu img{
+    width: 20%;
+    height:5%;
+}
+main{
+    background-color:rgba(226, 174, 30, 0.486);
+}
+main .espacio {
+    padding: 5px;
+}
+.parrafo{
+    text-align:justify;
+    font-size: 0.8rem;
+}
+.noticias{
+    background-color: white;   
+}
+.tituloinicio{
+    width: 100%;
+    text-align: center;
+    background-color: #0191C8;
+    font-size:0.8rem;
+    border-radius:0%;
+}
+.titulodetalle{
+    background-color: #0191C8;
+}
+iframe{
+    height: 16.6rem;
+}
+.botones{
+    background-color: #0191C8;
+    color: white;
+}
+footer{
+    background-color:  #01427c;
+    width: 100%;
+    color:white;
+    font-size: 13px;
+    padding:10px;
+}
+footer .container img{
+    width:5%;
+    border-radius: 3rem;
+}
+footer .redes{
+    color:white;
+    text-decoration: none;  
+}
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+}
