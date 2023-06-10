@@ -56,6 +56,14 @@ main .espacio {
     background-color: #0191C8;
     font-size:0.8rem;
     border-radius:0%;
+    height: 1.4rem;
+}
+.tituloinicionotros{
+    width: 100%;
+    text-align: center;
+    background-color: #0191C8;
+    font-size:0.8rem;
+    border-radius:0%;
 }
 .titulodetalle{
     background-color: #0191C8;
@@ -67,6 +75,9 @@ iframe{
     background-color: #0191C8;
     color: white;
 }
+.botones:hover{
+  border-color: #01427c ;
+}
 footer{
     background-color:  #01427c;
     width: 100%;
@@ -75,7 +86,7 @@ footer{
     padding:10px;
 }
 footer .container img{
-    width:5%;
+    width:7%;
     border-radius: 3rem;
 }
 footer .redes{
