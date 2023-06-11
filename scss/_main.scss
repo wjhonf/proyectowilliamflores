@@ -1,0 +1,52 @@
+main{
+    background-color:rgba(226, 174, 30, 0.486);
+    .espacio{
+        padding: 5px;
+    }
+    .parrafo{
+        text-align:justify;
+        font-size: 0.8rem;
+    }
+    .titulo{
+        width: 100%;
+        text-align: center;
+        background-color: $colortitulos;
+        font-size:0.8rem;
+        border-radius:0%;
+        .tituloinicio{
+            @extend .titulo;
+            height: 1.4rem;
+        }
+        .titulonotros{
+            @extend .titulo;
+        }
+    }/*
+    .tituloinicio{
+        width: 100%;
+        text-align: center;
+        background-color: $colortitulos;
+        font-size:0.8rem;
+        border-radius:0%;
+        height: 1.4rem;
+    }
+    .titulonotros{
+        width: 100%;
+        text-align: center;
+        background-color: $colortitulos;
+        font-size:0.8rem;
+        border-radius:0%;
+    }*/
+    .titulodetalle{
+        background-color: $colortitulos;
+    }
+    iframe{
+        height:16.9rem;
+    }
+    .botones{
+        background-color: $colortitulos;
+        color: white;
+    }
+    .botones:hover{
+        border-color:$colorprincipal;
+    }
+ }

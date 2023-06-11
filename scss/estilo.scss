@@ -1,0 +1,10 @@
+@import "var";
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+}

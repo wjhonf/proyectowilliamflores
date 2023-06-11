@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+    align-items: center;
+    .menu{
+        background-color:$colorprincipal;
+        .nombreemp{
+            color:white;
+            text-decoration: none;
+            &:hover{
+                background-color:  white;
+                color: black;
+                border-bottom: white;
+                border-radius: 1px;
+            }
+
+        }
+        ul{
+            list-style-type: none;
+            a{
+                color:white;
+                text-decoration: none;
+                &:hover{
+                    background-color:  white;
+                    color: black;
+                    border-bottom: white;
+                    border-radius: 1px;
+                }
+            }
+        }
+    }
+ }

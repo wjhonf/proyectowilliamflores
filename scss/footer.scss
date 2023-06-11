@@ -1,0 +1,21 @@
+footer{
+    background-color:$colorprincipal;
+    width: 100%;
+    color:white;
+    font-size: 13px;
+    padding:10px;
+    .footertitus{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .container{
+        img{
+            width:7%;
+            border-radius: 3rem;
+        }
+    }
+    .redes{
+        color:white;
+        text-decoration: none;  
+    }
+}
