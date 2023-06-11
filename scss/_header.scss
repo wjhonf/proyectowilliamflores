@@ -3,26 +3,28 @@ header{
     align-items: center;
     .menu{
         background-color:$colorprincipal;
+        .bordeicono{
+            border-color:$colormenu;
+         }
         .nombreemp{
-            color:white;
+            color:$colormenu;
             text-decoration: none;
             &:hover{
-                background-color:  white;
+                background-color: $colormenu;
                 color: black;
-                border-bottom: white;
+                border-bottom:$colormenu;
                 border-radius: 1px;
             }
-
         }
         ul{
             list-style-type: none;
             a{
-                color:white;
+                color:$colormenu;
                 text-decoration: none;
                 &:hover{
-                    background-color:  white;
+                    background-color: $colormenu;
                     color: black;
-                    border-bottom: white;
+                    border-bottom:$colormenu;
                     border-radius: 1px;
                 }
             }

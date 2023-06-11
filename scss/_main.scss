@@ -20,22 +20,7 @@ main{
         .titulonotros{
             @extend .titulo;
         }
-    }/*
-    .tituloinicio{
-        width: 100%;
-        text-align: center;
-        background-color: $colortitulos;
-        font-size:0.8rem;
-        border-radius:0%;
-        height: 1.4rem;
     }
-    .titulonotros{
-        width: 100%;
-        text-align: center;
-        background-color: $colortitulos;
-        font-size:0.8rem;
-        border-radius:0%;
-    }*/
     .titulodetalle{
         background-color: $colortitulos;
     }

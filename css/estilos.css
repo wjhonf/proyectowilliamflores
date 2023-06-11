@@ -15,6 +15,8 @@ header {
   align-items: center; }
   header .menu {
     background-color: #01427c; }
+    header .menu .bordeicono {
+      border-color: white; }
     header .menu .nombreemp {
       color: white;
       text-decoration: none; }
@@ -35,23 +37,7 @@ header {
           border-radius: 1px; }
 
 main {
-  background-color: rgba(226, 174, 30, 0.486);
-  /*
-    .tituloinicio{
-        width: 100%;
-        text-align: center;
-        background-color: $colortitulos;
-        font-size:0.8rem;
-        border-radius:0%;
-        height: 1.4rem;
-    }
-    .titulonotros{
-        width: 100%;
-        text-align: center;
-        background-color: $colortitulos;
-        font-size:0.8rem;
-        border-radius:0%;
-    }*/ }
+  background-color: rgba(226, 174, 30, 0.486); }
   main .espacio {
     padding: 5px; }
   main .parrafo {
